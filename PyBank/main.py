@@ -41,7 +41,7 @@ with open(csv_path) as csvfile:
     print(f"Greatest Increase in Profits: ${greatest_increase}")
     print(f"Greatest Decrease in Profits: ${greatest_decrease}")
 
-    #check for greatest increase in profit based on the `changes` list
+    # Another way to check for greatest increase in profit based on the `changes` list by looping
     # greatest_increase = 0
     # greatest_decrease = 0
     # for change in changes:
