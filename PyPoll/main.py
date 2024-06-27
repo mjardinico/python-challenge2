@@ -19,9 +19,6 @@ with open(csv_path, 'r') as csvfile:
 
     #skip the header
     csvheader = next(csvreader)
-    
-    # total_count = 0
-    # total_votes = 0
 
     for row in csvreader:
         name = row[2]
